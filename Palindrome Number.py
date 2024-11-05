@@ -13,10 +13,10 @@ def test_solution(x: int, expected_output: bool):
     solution = Solution()
     result = solution.isPalindrome(x)
 
-if result == expected_output:
-    print(f"Test dla x = {x} przeszedł poprawnie. Wynik: {result}")
-else:
-    print(f"Test dla x = {x} nie powiódł się. Wynik: {result}, oczekiwano: {expected_output}")
+    if result == expected_output:
+        print(f"Wynik testu jest poprawny dla x = {x}. Wynik: {result}")
+    else:
+        print(f"Wynik testu nie jest poprawny się dla x = {x} . Wynik: {result}, oczekiwano: {expected_output}")
 
 # Przykłady testów
 test_solution(121, True)    # Palindrom, powinno wypisać, że test przeszedł poprawnie
