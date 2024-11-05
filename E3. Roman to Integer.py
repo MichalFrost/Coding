@@ -15,3 +15,17 @@ class Solution:
             else:
                 sum += a
         return sum;
+
+def test_solution(s: str, expected_output: int):
+    solution = Solution()
+    result = solution.romanToInt(s)
+
+    if result == expected_output:
+        print(f"Wynik testu jest poprawny dla liczby = {s}. Wynik: {result}")
+    else:
+        print(f"Wynik testu nie jest poprawny dla liczby = {s}. Wynik: {result}, oczekiwano: {expected_output}")
+
+# Przykłady testów
+test_solution("III", 3) 
+test_solution("LVIII", 58)
+test_solution("MCMXCIV", 1994)
