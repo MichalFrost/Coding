@@ -5,6 +5,7 @@ class Solution:
 
         for i in range(len(s)):
             a = dict[str(s[i])]
+            
             if (i == len(s)-1):
                 b = 0
             else:
