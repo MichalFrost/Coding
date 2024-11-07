@@ -1,3 +1,3 @@
 SELECT name 
-  FROM sqlite_master
+FROM sqlite_master
 where type = 'table'
