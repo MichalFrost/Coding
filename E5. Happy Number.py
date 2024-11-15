@@ -25,3 +25,16 @@ class Solution:
             n = new_n
 
         return True
+
+def test_solution(x: int, expected_output: bool):
+    solution = Solution()
+    result = solution.isHappy(x)
+
+    if result == expected_output:
+        print(f"Wynik testu jest poprawny dla x = {x}. Wynik: {result}")
+    else:
+        print(f"Wynik testu nie jest poprawny się dla x = {x} . Wynik: {result}, oczekiwano: {expected_output}")
+
+# Przykłady testów
+test_solution(19, True)   
+test_solution(2, False)  
