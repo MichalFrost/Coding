@@ -5,3 +5,4 @@ In this repo, the main goal is to practice the coding skills. THe excercises are
 - M is the "Medium" difficulty on LeetCode web
 - H is the "Hard" difficulty on LeetCode web
       
+In this section we can find python and sql excercies.
